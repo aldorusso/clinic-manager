@@ -15,12 +15,18 @@ export default function Footer2() {
                 <div className="col-12 lg:col-4">
                   <div className="panel vstack items-start gap-4 ltr:md:pe-8 rtl:md:ps-8">
                     <div className="vstack gap-2">
-                      <Link href={`/`}>
-                        <img
-                          className=" text-primary"
-                          alt="Clinik.download"
-                          src="/assets/images/landing/logo-light.svg"
-                        />
+                      <Link
+                        href={`/`}
+                        style={{
+                          fontFamily: "'Syne', sans-serif",
+                          fontSize: "28px",
+                          fontWeight: 700,
+                          letterSpacing: "-0.5px",
+                          color: "white",
+                          textDecoration: "none"
+                        }}
+                      >
+                        ClinicManager
                       </Link>
                       <p>
                         La herramienta integral para gestionar y hacer crecer tu
@@ -67,7 +73,7 @@ export default function Footer2() {
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
                 <p className="opacity-60">
-                  Clink.download © {new Date().getFullYear()}, Todos los derechos reservados.
+                  ClinicManager © {new Date().getFullYear()}, Todos los derechos reservados.
                 </p>
                 <ul className="nav-x gap-2 fw-medium">
                   <li>

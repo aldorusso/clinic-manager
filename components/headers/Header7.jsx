@@ -29,9 +29,8 @@ export default function Header7() {
   }, [prevScrollPos]);
   return (
     <header
-      className={`uc-header header-eight uc-navbar-sticky-wrap z-999 uc-dark uc-sticky  ${
-        scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
-      }`}
+      className={`uc-header header-eight uc-navbar-sticky-wrap z-999 uc-dark uc-sticky  ${scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
+        }`}
       data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;"
       style={{}}
     >
@@ -48,25 +47,20 @@ export default function Header7() {
             >
               <div className="uc-navbar-left">
                 <div className="uc-logo ltr:ms-1 rtl:me-1">
-                  <Link
-                    className="panel text-none"
-                    href={`/home-8`}
-                    style={{ width: 140 }}
-                  >
-                    <Image
-                      className="dark:d-none"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-light.svg"
-                      width={148}
-                      height={39}
-                    />
-                    <Image
-                      className="d-none dark:d-block"
-                      alt="Lexend"
-                      src="/assets/images/common/logo-8-dark.svg"
-                      width={148}
-                      height={39}
-                    />
+                  <Link href={`/home-8`} className="text-none">
+                    <span
+                      style={{
+                        fontFamily: "'Syne', sans-serif",
+                        fontSize: "28px",
+                        fontWeight: 700,
+                        letterSpacing: "-0.5px",
+                        textDecoration: "none",
+                        display: "inline-block"
+                      }}
+                      className="text-dark dark:text-white"
+                    >
+                      ClinicManager
+                    </span>
                   </Link>
                 </div>
               </div>

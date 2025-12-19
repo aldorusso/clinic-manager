@@ -54,24 +54,18 @@ export default function Header2() {
             <div className="uc-navbar-left">
               <div className="uc-logo text-dark dark:text-white">
                 <Link
-                  className="panel text-none"
                   href={`/`}
-                  style={{ width: 140 }}
+                  style={{
+                    fontFamily: "'Syne', sans-serif",
+                    fontSize: "28px",
+                    fontWeight: 700,
+                    letterSpacing: "-0.5px",
+                    textDecoration: "none",
+                    display: "inline-block"
+                  }}
+                  className="text-dark dark:text-white"
                 >
-                  <Image
-                    className="dark:d-none"
-                    alt="Clinik.download"
-                    src="/assets/images/landing/logo-light.svg"
-                    width="117"
-                    height="40"
-                  />
-                  <Image
-                    className="d-none dark:d-block"
-                    alt="Clinik.download"
-                    src="/assets/images/landing/logo-light.svg"
-                    width="117"
-                    height="40"
-                  />
+                  ClinicManager
                 </Link>
               </div>
               <ul className="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
