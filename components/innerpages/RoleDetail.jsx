@@ -24,7 +24,7 @@ export default function RoleDetail({ role }) {
                                     </p>
                                     <div className="hstack gap-2 mt-2">
                                         <Link
-                                            href="https://web.clinicmanager.digital/"
+                                            href="/precios"
                                             className="btn btn-primary text-white"
                                         >
                                             Empezar ahora
