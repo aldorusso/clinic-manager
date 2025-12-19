@@ -6,7 +6,7 @@ export const menuItems = [
   },
   {
     id: 2,
-    href: "/page-features",
+    href: "/funcionalidades",
     label: "Funcionalidades",
   },
   {
@@ -16,7 +16,7 @@ export const menuItems = [
   },
   {
     id: 4,
-    href: "/page-pricing",
+    href: "/precios",
     label: "Precios",
   },
   {
@@ -26,7 +26,7 @@ export const menuItems = [
   },
   {
     id: 6,
-    href: "/page-contact",
+    href: "/contacto",
     label: "Contacto",
   },
 ];
@@ -119,11 +119,11 @@ export const pagesData = [
     header: "Inner Pages",
     items: [
       {
-        href: "/page-features",
+        href: "/funcionalidades",
         label: "Features",
       },
       {
-        href: "/page-pricing",
+        href: "/precios",
         label: "Pricing",
       },
       {
@@ -135,19 +135,19 @@ export const pagesData = [
         },
       },
       {
-        href: "/page-integrations",
+        href: "/integraciones",
         label: "Integrations",
       },
       {
-        href: "/page-about",
+        href: "/nosotros",
         label: "About",
       },
       {
-        href: "/page-career",
+        href: "/empleo",
         label: "Career",
       },
       {
-        href: "/page-team",
+        href: "/equipo",
         label: "Team",
         badge: {
           text: "New",
@@ -159,7 +159,7 @@ export const pagesData = [
         label: "Job details",
       },
       {
-        href: "/page-contact",
+        href: "/contacto",
         label: "Contact",
       },
       {
@@ -329,11 +329,11 @@ export const pagesData = [
         label: "Coming Soon",
       },
       {
-        href: "/page-terms",
+        href: "/terminos",
         label: "Terms of service",
       },
       {
-        href: "/page-privacy",
+        href: "/privacidad",
         label: "Privacy policy",
       },
     ],
@@ -375,25 +375,25 @@ export const mainPages = [
     title: "Home 4",
   },
   {
-    href: "/page-features",
+    href: "/funcionalidades",
     alt: "Features",
     src: "/assets/images/demos/screenshots/page-features.jpg",
     title: "Features",
   },
   {
-    href: "/page-pricing",
+    href: "/precios",
     alt: "Pricing",
     src: "/assets/images/demos/screenshots/page-pricing.jpg",
     title: "Pricing",
   },
   {
-    href: "/page-integrations",
+    href: "/integraciones",
     alt: "Integrations",
     src: "/assets/images/demos/screenshots/page-integrations.jpg",
     title: "Integrations",
   },
   {
-    href: "/page-about",
+    href: "/nosotros",
     alt: "About",
     src: "/assets/images/demos/screenshots/page-about.jpg",
     title: "About",
@@ -401,9 +401,9 @@ export const mainPages = [
 ];
 
 export const othermenuItems = [
-  { href: "/page-career", icon: "unicon-wikis", title: "Career" },
+  { href: "/empleo", icon: "unicon-wikis", title: "Career" },
   { href: "/page-career-detail/2", icon: "unicon-wikis", title: "Job details" },
-  { href: "/page-contact", icon: "unicon-wikis", title: "Contact" },
+  { href: "/contacto", icon: "unicon-wikis", title: "Contact" },
   { href: "/page-contact-2", icon: "unicon-wikis", title: "Contact v2" },
   { href: "/blog", icon: "unicon-course", title: "Blog" },
   { href: "/blog-details/1", icon: "unicon-course", title: "Blog details" },
@@ -518,7 +518,7 @@ export const homeLinks = [
 export const links = [
   {
     id: 1,
-    href: "/page-career",
+    href: "/empleo",
     label: "Hire an Expert",
     isInternal: true,
   },
@@ -542,19 +542,19 @@ export const links = [
   },
   {
     id: 5,
-    href: "/page-career",
+    href: "/empleo",
     label: "Career",
     isInternal: true,
   },
   {
     id: 6,
-    href: "/page-team",
+    href: "/equipo",
     label: "Team",
     isInternal: true,
   },
   {
     id: 7,
-    href: "/page-contact",
+    href: "/contacto",
     label: "Get in touch",
     isInternal: true,
   },
@@ -620,19 +620,19 @@ export const sections = [
   {
     title: "Get started is Easy!",
     links: [
-      { href: "/page-contact", text: "Hire an Expert" },
+      { href: "/contacto", text: "Hire an Expert" },
       { href: "#", text: "Customer stories" },
       { href: "#", text: "Resources" },
       { href: "/blog-sidebar", text: "Blog" },
-      { href: "/page-career", text: "Career" },
-      { href: "/page-contact", text: "Help Center" },
+      { href: "/empleo", text: "Career" },
+      { href: "/contacto", text: "Help Center" },
     ],
   },
   {
     title: "Terms and privacy",
     links: [
-      { href: "/page-terms", text: "Terms of service" },
-      { href: "/page-privacy", text: "Privacy Policy" },
+      { href: "/terminos", text: "Terms of service" },
+      { href: "/privacidad", text: "Privacy Policy" },
     ],
   },
 ];

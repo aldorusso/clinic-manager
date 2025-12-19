@@ -44,7 +44,7 @@ export default function Tools() {
                 ))}
               </div>
               <Link
-                href={`/page-integrations`}
+                href={`/integraciones`}
                 className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
               >
                 Explorar todas las integraciones

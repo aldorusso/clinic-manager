@@ -15,14 +15,19 @@ export default function Footer1() {
                 <div className="col-12 lg:col-4">
                   <div className="panel vstack items-start gap-4 ltr:md:pe-8 rtl:md:ps-8">
                     <div className="vstack gap-2">
-                      <Link href={`/`}>
-                        <Image
-                          className="w-32px text-primary"
-                          alt="Clinik.download"
-                          src="/assets/images/landing/logo-light.svg"
-                          width={117}
-                          height={40}
-                        />
+                      <Link
+                        href={`/`}
+                        style={{
+                          fontFamily: "'Syne', sans-serif",
+                          fontSize: "28px",
+                          fontWeight: 700,
+                          letterSpacing: "-0.5px",
+                          textDecoration: "none",
+                          display: "inline-block"
+                        }}
+                        className="text-dark dark:text-white"
+                      >
+                        ClinicManager
                       </Link>
                       <p>
                         La herramienta integral para gestionar y hacer crecer tu
@@ -68,18 +73,16 @@ export default function Footer1() {
             </div>
             <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
               <div className="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
-                <p className="opacity-60">
-                  Clink.download © {new Date().getFullYear()}, Todos los derechos reservados.
-                </p>
+                ClinicManager © {new Date().getFullYear()}, Todos los derechos reservados.
                 <ul className="nav-x gap-2 fw-medium">
                   <li>
-                    <Link href="/page-privacy">Aviso de Privacidad</Link>
+                    <Link href="/privacidad">Aviso de Privacidad</Link>
                   </li>
                   <li>
-                    <Link href="/page-terms">Legal</Link>
+                    <Link href="/terminos">Legal</Link>
                   </li>
                   <li>
-                    <Link href="/page-cookies">Cookies</Link>
+                    <Link href="/cookies">Cookies</Link>
                   </li>
                 </ul>
               </div>

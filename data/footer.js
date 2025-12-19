@@ -1,17 +1,17 @@
 export const footerLinks = [
   {
     links: [
-      { href: "/page-features", label: "Funcionalidades" },
-      { href: "/page-features#roles", label: "Roles" },
-      { href: "/page-pricing", label: "Precios" },
+      { href: "/funcionalidades", label: "Funcionalidades" },
+      { href: "/equipo", label: "Roles" },
+      { href: "/precios", label: "Precios" },
       { href: "/blog", label: "Documentación" },
     ],
   },
   {
     links: [
-      { href: "/page-terms", label: "Términos de uso" },
-      { href: "/page-privacy", label: "Política de privacidad" },
-      { href: "/page-contact", label: "Contacto" },
+      { href: "/terminos", label: "Términos de uso" },
+      { href: "/privacidad", label: "Política de privacidad" },
+      { href: "/contacto", label: "Contacto" },
     ],
   },
 ];
@@ -20,12 +20,12 @@ export const footerLinks2 = [
   {
     header: "Inner pages",
     links: [
-      { href: "/page-features", label: "Features" },
-      { href: "/page-pricing", label: "Pricing" },
-      { href: "/page-about", label: "About" },
-      { href: "/page-career", label: "Career" },
-      { href: "/page-contact", label: "Contact" },
-      { href: "/page-contact-2", label: "Contact v2" },
+      { href: "/funcionalidades", label: "Features" },
+      { href: "/precios", label: "Pricing" },
+      { href: "/nosotros", label: "About" },
+      { href: "/empleo", label: "Career" },
+      { href: "/contacto", label: "Contact" },
+      { href: "/contacto", label: "Contact v2" },
     ],
   },
   {
@@ -53,11 +53,11 @@ export const footerLinks2 = [
   {
     header: "Other",
     links: [
-      { href: "/page-terms", label: "FAQ" },
+      { href: "/terminos", label: "FAQ" },
       { href: "/page-not-found", label: "404" },
       { href: "/coming-soon", label: "Coming Soon" },
-      { href: "/page-terms", label: "Terms of service" },
-      { href: "/page-privacy", label: "Privacy policy" },
+      { href: "/terminos", label: "Terms of service" },
+      { href: "/privacidad", label: "Privacy policy" },
       { href: "/sign-in", label: "Request a demo" },
     ],
   },
@@ -78,13 +78,13 @@ export const footerLinks3 = [
   {
     title: "Product",
     links: [
-      { href: "/page-about", label: "Product" },
-      { href: "/page-pricing", label: "Overview" },
-      { href: "/page-features", label: "Features" },
-      { href: "/page-integrations", label: "Solutions" },
-      { href: "/page-career", label: "Tutorials" },
-      { href: "/page-contact", label: "Pricing" },
-      { href: "/page-contact-2", label: "Releases" },
+      { href: "/nosotros", label: "Product" },
+      { href: "/precios", label: "Overview" },
+      { href: "/funcionalidades", label: "Features" },
+      { href: "/integraciones", label: "Solutions" },
+      { href: "/empleo", label: "Tutorials" },
+      { href: "/contacto", label: "Pricing" },
+      { href: "/contacto", label: "Releases" },
     ],
   },
   {
@@ -116,11 +116,11 @@ export const footerLinks3 = [
     links: [
       { href: "/blog", label: "Social" },
       { href: "/blog-details/1", label: "Twitter" },
-      { href: "/page-terms", label: "LinkedIn" },
+      { href: "/terminos", label: "LinkedIn" },
       { href: "/page-not-found", label: "Facebook" },
       { href: "/coming-soon", label: "GitHub" },
-      { href: "/page-terms", label: "AngelList" },
-      { href: "/page-privacy", label: "Dribbble" },
+      { href: "/terminos", label: "AngelList" },
+      { href: "/privacidad", label: "Dribbble" },
     ],
   },
   {
@@ -128,11 +128,11 @@ export const footerLinks3 = [
     links: [
       { href: "/blog", label: "Legal" },
       { href: "/blog-details/1", label: "Terms" },
-      { href: "/page-terms", label: "Privacy" },
+      { href: "/terminos", label: "Privacy" },
       { href: "/page-not-found", label: "Cookies" },
       { href: "/coming-soon", label: "Licenses" },
-      { href: "/page-terms", label: "Settings" },
-      { href: "/page-privacy", label: "Contact" },
+      { href: "/terminos", label: "Settings" },
+      { href: "/privacidad", label: "Contact" },
     ],
     extraClass: "d-none lg:d-block",
   },
@@ -153,12 +153,12 @@ export const footerLinks4 = [
   {
     title: "Company",
     links: [
-      { text: "About us", href: "/page-about", isLink: true },
-      { text: "Careers", href: "/page-career", isLink: true },
+      { text: "About us", href: "/nosotros", isLink: true },
+      { text: "Careers", href: "/empleo", isLink: true },
       { text: "Press", href: "#" },
       { text: "News", href: "/blog", isLink: true },
       { text: "Media kit", href: "#" },
-      { text: "Contact", href: "/page-contacct", isLink: true },
+      { text: "Contact", href: "/contacto", isLink: true },
     ],
   },
   {
@@ -230,12 +230,12 @@ export const footerLinks6 = [
   },
   {
     links: [
-      { text: "About us", href: "/page-about", isLink: true },
-      { text: "Careers", href: "/page-career", isLink: true },
+      { text: "About us", href: "/nosotros", isLink: true },
+      { text: "Careers", href: "/empleo", isLink: true },
       { text: "Press", href: "#", isLink: false },
       { text: "News", href: "/blog", isLink: true },
       { text: "Media kit", href: "#", isLink: false },
-      { text: "Contact", href: "/page-contacct", isLink: true },
+      { text: "Contact", href: "/contacto", isLink: true },
     ],
   },
   {

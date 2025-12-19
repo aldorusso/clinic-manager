@@ -20,24 +20,18 @@ export default function Footer7() {
                     <div className="panel vstack items-start gap-3 xl:gap-4 lg:max-w-1/2">
                       <div>
                         <Link
-                          className="panel text-none"
-                          href={`/home-8`}
-                          style={{ width: 140 }}
+                          className="panel text-none text-white"
+                          href={`/`}
+                          style={{
+                            fontFamily: "'Syne', sans-serif",
+                            fontSize: "28px",
+                            fontWeight: 700,
+                            letterSpacing: "-0.5px",
+                            textDecoration: "none",
+                            display: "inline-block"
+                          }}
                         >
-                          <Image
-                            className="dark:d-none"
-                            alt="Lexend"
-                            src="/assets/images/common/logo-8-light.svg"
-                            width={148}
-                            height={39}
-                          />
-                          <Image
-                            className="d-none dark:d-block"
-                            alt="Lexend"
-                            src="/assets/images/common/logo-8-dark.svg"
-                            width={148}
-                            height={39}
-                          />
+                          ClinicManager
                         </Link>
                         <p className="mt-2">
                           Design amazing digital experiences that create more

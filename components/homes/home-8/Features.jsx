@@ -48,7 +48,7 @@ export default function Features() {
                     <div className="panel vstack items-start gap-2 p-3 lg:p-4">
                       <h4 className="h4 m-0 text-inherit">{feature.title}</h4>
                       <a
-                        href="/page-features"
+                        href="/funcionalidades"
                         className="btn btn-sm btn-primary border px-2 mt-2"
                       >
                         <span>Probar ahora</span>
@@ -90,7 +90,7 @@ export default function Features() {
                       el máximo provecho de nuestra plataforma.
                     </p>
                     <a
-                      href="/page-contact"
+                      href="/contacto"
                       className="btn btn-sm btn-primary border px-2 mt-2"
                     >
                       <span>Contáctanos</span>
