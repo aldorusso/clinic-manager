@@ -75,7 +75,7 @@ export default function Header2() {
             <div className="uc-navbar-right">
 
               <div className="d-none lg:d-block">
-                <Link className="text-none fw-medium" href={`https://web.clinicmanager.digital/`}>
+                <Link className="text-none fw-medium" href={`https://app.clinicmanager.digital/`}>
                   <span>Iniciar Sesión</span>
                 </Link>
               </div>

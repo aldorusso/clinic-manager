@@ -25,13 +25,13 @@ export default function RoleDetail({ role }) {
                                     <div className="hstack gap-2 mt-2">
                                         <Link
                                             href="/precios"
-                                            className="btn btn-primary text-white"
+                                            className="btn btn-white text-primary"
                                         >
                                             Empezar ahora
                                         </Link>
                                         <Link
                                             href="/contacto"
-                                            className="btn btn-outline-primary"
+                                            className="btn btn-outline-white"
                                         >
                                             Solicitar demo
                                         </Link>

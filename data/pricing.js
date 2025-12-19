@@ -260,7 +260,7 @@ export const pricingPlans3 = [
       "Gestión de terceros",
     ],
     included: [true, true, false, false, false, false],
-    link: "https://web.clinicmanager.digital/",
+    link: "https://app.clinicmanager.digital/",
     buttonClass: "btn-ghost-tertiary",
   },
   {
@@ -276,7 +276,7 @@ export const pricingPlans3 = [
       "Gestión de terceros",
     ],
     included: [true, true, true, true, false, false],
-    link: "https://web.clinicmanager.digital/",
+    link: "https://app.clinicmanager.digital/",
     buttonClass: "btn-primary",
   },
   {
@@ -342,7 +342,7 @@ export const pricingPlans5 = [
     features: ["Fast and Reliable", "Discover Data Everywhere"],
     cta: {
       text: "Try for free",
-      link: "https://web.clinicmanager.digital/",
+      link: "https://app.clinicmanager.digital/",
     },
     bgColor: "bg-gray-300 bg-opacity-15 text-white",
   },
@@ -360,7 +360,7 @@ export const pricingPlans5 = [
     ],
     cta: {
       text: "Try for free",
-      link: "https://web.clinicmanager.digital/",
+      link: "https://app.clinicmanager.digital/",
     },
     bgColor: "bg-secondary text-dark shadow-xs",
   },
