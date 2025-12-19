@@ -54,10 +54,10 @@ export default function Pricing() {
                             </span>
                             <div className="vstack gap-1 justify-center text-center mt-3">
                               <Link
-                                href={`/sign-up`}
+                                href={`https://web.clinicmanager.digital/`}
                                 className={`btn btn-md sm:btn-sm lg:btn-md ${tier.title === "Enterprise"
-                                    ? "btn-dark"
-                                    : "btn-primary"
+                                  ? "btn-dark"
+                                  : "btn-primary"
                                   } text-white`}
                               >
                                 {tier.linkText}

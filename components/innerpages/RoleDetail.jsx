@@ -24,13 +24,13 @@ export default function RoleDetail({ role }) {
                                     </p>
                                     <div className="hstack gap-2 mt-2">
                                         <Link
-                                            href="/page-pricing"
+                                            href="https://web.clinicmanager.digital/"
                                             className="btn btn-primary text-white"
                                         >
                                             Empezar ahora
                                         </Link>
                                         <Link
-                                            href="/page-contact"
+                                            href="/contacto"
                                             className="btn btn-outline-primary"
                                         >
                                             Solicitar demo
@@ -189,13 +189,13 @@ export default function RoleDetail({ role }) {
                                 </p>
                                 <div className="hstack gap-2 justify-center mt-2">
                                     <Link
-                                        href="/page-pricing"
+                                        href="/precios"
                                         className="btn btn-white text-primary"
                                     >
                                         Ver planes
                                     </Link>
                                     <Link
-                                        href="/page-contact"
+                                        href="/contacto"
                                         className="btn btn-outline-white"
                                     >
                                         Contactar
