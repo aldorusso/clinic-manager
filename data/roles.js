@@ -5,7 +5,7 @@ export const roles = [
         name: "Doctor",
         category: "Médico",
         description: "Gestiona historias clínicas, citas y recetas de forma sencilla y eficiente.",
-        iconClass: "unicon-briefcase",
+        iconClass: "unicon-user",
         imageAlt: "Icono Doctor",
         heroImage: "/assets/images/roles/doctor-hero.jpg",
         fullDescription: "El rol de Médico en nuestro CRM está diseñado para optimizar tu práctica diaria, permitiéndote enfocarte en lo más importante: la atención al paciente. Gestiona historias clínicas digitales, agenda consultas y prescribe tratamientos desde una plataforma intuitiva y segura.",
@@ -19,7 +19,7 @@ export const roles = [
         ],
         features: [
             {
-                iconClass: "unicon-briefcase",
+                iconClass: "unicon-document",
                 title: "Historias Clínicas Digitales",
                 description: "Accede al historial completo del paciente en segundos. Toda la información médica organizada y segura."
             },
@@ -29,7 +29,7 @@ export const roles = [
                 description: "Visualiza tus citas del día, semana o mes. Recibe notificaciones automáticas de próximas consultas."
             },
             {
-                iconClass: "unicon-document-layout-right",
+                iconClass: "unicon-document-alt",
                 title: "Recetas Electrónicas",
                 description: "Prescribe medicamentos digitalmente. Envía recetas directamente al paciente por email o WhatsApp."
             },
@@ -39,12 +39,12 @@ export const roles = [
                 description: "Monitorea la evolución de tratamientos estéticos. Compara fotos de antes y después."
             },
             {
-                iconClass: "unicon-shield-check",
+                iconClass: "unicon-security",
                 title: "Seguridad y Privacidad",
                 description: "Cumplimiento total con normativas de protección de datos médicos. Encriptación de extremo a extremo."
             },
             {
-                iconClass: "unicon-mobile-android",
+                iconClass: "unicon-mobile",
                 title: "Acceso Móvil",
                 description: "Consulta información desde cualquier dispositivo. App móvil disponible para iOS y Android."
             }
@@ -97,12 +97,12 @@ export const roles = [
                 description: "Agenda tu cita en cualquier momento. Ve la disponibilidad en tiempo real y elige el horario que mejor te convenga."
             },
             {
-                iconClass: "unicon-document-layout-right",
+                iconClass: "unicon-document",
                 title: "Historial Médico",
                 description: "Accede a todos tus registros médicos, tratamientos anteriores y resultados de procedimientos."
             },
             {
-                iconClass: "unicon-bell",
+                iconClass: "unicon-notification",
                 title: "Recordatorios Automáticos",
                 description: "Recibe notificaciones por WhatsApp y email sobre tus próximas citas y tratamientos de seguimiento."
             },
@@ -112,12 +112,12 @@ export const roles = [
                 description: "Envía consultas a tu médico directamente desde la plataforma. Respuestas rápidas y seguras."
             },
             {
-                iconClass: "unicon-mobile-android",
+                iconClass: "unicon-mobile",
                 title: "App Móvil",
                 description: "Gestiona todo desde tu smartphone. Disponible para iOS y Android."
             },
             {
-                iconClass: "unicon-shield-check",
+                iconClass: "unicon-security",
                 title: "Privacidad Garantizada",
                 description: "Tus datos médicos están protegidos con los más altos estándares de seguridad."
             }
@@ -137,7 +137,7 @@ export const roles = [
         name: "Administrador",
         category: "Admin",
         description: "Supervisa las operaciones de la clínica, gestiona el personal y genera informes.",
-        iconClass: "unicon-setting",
+        iconClass: "unicon-settings",
         imageAlt: "Icono Admin",
         heroImage: "/assets/images/roles/admin-hero.jpg",
         fullDescription: "El rol de Administrador te da control total sobre las operaciones de la clínica. Gestiona personal, analiza métricas de negocio y toma decisiones basadas en datos en tiempo real.",
@@ -156,27 +156,27 @@ export const roles = [
                 description: "Visualiza KPIs en tiempo real: ingresos, citas, conversión de leads, satisfacción del paciente."
             },
             {
-                iconClass: "unicon-users-alt",
+                iconClass: "unicon-user-multiple",
                 title: "Gestión de Personal",
                 description: "Administra médicos, recepcionistas y personal. Asigna roles y permisos de forma granular."
             },
             {
-                iconClass: "unicon-document-layout-right",
+                iconClass: "unicon-document",
                 title: "Reportes Avanzados",
                 description: "Genera reportes personalizados de ingresos, tratamientos más solicitados, rendimiento por médico."
             },
             {
-                iconClass: "unicon-money-bill",
+                iconClass: "unicon-money",
                 title: "Control Financiero",
                 description: "Seguimiento de pagos, facturas pendientes, proyecciones de ingresos mensuales."
             },
             {
-                iconClass: "unicon-setting",
+                iconClass: "unicon-settings",
                 title: "Configuración Global",
                 description: "Personaliza la plataforma según las necesidades de tu clínica. Horarios, servicios, precios."
             },
             {
-                iconClass: "unicon-shield-check",
+                iconClass: "unicon-security",
                 title: "Auditoría y Seguridad",
                 description: "Registro completo de todas las acciones en el sistema. Control de accesos y permisos."
             }
@@ -225,12 +225,12 @@ export const roles = [
                 description: "Realiza llamadas directamente desde el sistema. Historial completo de comunicaciones con cada paciente."
             },
             {
-                iconClass: "unicon-bell",
+                iconClass: "unicon-notification",
                 title: "Recordatorios Automáticos",
                 description: "El sistema envía recordatorios automáticos por WhatsApp. Reduce las ausencias en un 40%."
             },
             {
-                iconClass: "unicon-list-ul",
+                iconClass: "unicon-list-bulleted",
                 title: "Lista de Espera",
                 description: "Gestiona lista de espera para citas canceladas. Optimiza la ocupación de la agenda."
             },
@@ -255,7 +255,7 @@ export const roles = [
         name: "Closer",
         category: "Ventas",
         description: "Cierra ventas de tratamientos estéticos y maximiza la conversión de leads en pacientes.",
-        iconClass: "unicon-money-bill",
+        iconClass: "unicon-money",
         imageAlt: "Icono Closer",
         heroImage: "/assets/images/roles/closer-hero.jpg",
         fullDescription: "El rol de Closer está diseñado para profesionales de ventas enfocados en convertir consultas en tratamientos confirmados. Gestiona el pipeline de ventas, realiza seguimiento de leads calificados y cierra acuerdos con herramientas especializadas de CRM.",
@@ -269,7 +269,7 @@ export const roles = [
         ],
         features: [
             {
-                iconClass: "unicon-money-bill",
+                iconClass: "unicon-list",
                 title: "Pipeline de Ventas",
                 description: "Visualiza tu embudo de ventas completo. Leads calificados, en negociación, cerrados y perdidos en un solo dashboard."
             },
@@ -284,17 +284,17 @@ export const roles = [
                 description: "Monitorea tu tasa de cierre, ticket promedio y tiempo de conversión. Identifica oportunidades de mejora."
             },
             {
-                iconClass: "unicon-document-layout-right",
+                iconClass: "unicon-document",
                 title: "Scripts de Venta",
                 description: "Accede a scripts probados para cada etapa del proceso. Maneja objeciones con respuestas efectivas."
             },
             {
-                iconClass: "unicon-bell",
+                iconClass: "unicon-notification",
                 title: "Recordatorios Automáticos",
                 description: "Nunca pierdas un seguimiento. El sistema te recuerda cuándo contactar a cada lead."
             },
             {
-                iconClass: "unicon-users-alt",
+                iconClass: "unicon-box",
                 title: "Gestión de Paquetes",
                 description: "Crea y gestiona paquetes personalizados de tratamientos. Envía cotizaciones profesionales por WhatsApp."
             }
@@ -328,7 +328,7 @@ export const roles = [
         name: "Gestor de Leads",
         category: "Marketing",
         description: "Gestiona, califica y distribuye leads para maximizar la conversión de la clínica.",
-        iconClass: "unicon-users-alt",
+        iconClass: "unicon-user-multiple",
         imageAlt: "Icono Gestor de Leads",
         heroImage: "/assets/images/roles/lead-manager-hero.jpg",
         fullDescription: "El Gestor de Leads es responsable de administrar todo el flujo de leads entrantes, desde la captación hasta la asignación a closers. Califica leads, gestiona campañas de marketing y optimiza la conversión mediante análisis de datos.",
@@ -342,7 +342,7 @@ export const roles = [
         ],
         features: [
             {
-                iconClass: "unicon-users-alt",
+                iconClass: "unicon-user-multiple",
                 title: "Dashboard de Leads",
                 description: "Visualiza todos los leads en tiempo real. Filtra por fuente, estado, calificación y fecha de entrada."
             },
@@ -352,22 +352,22 @@ export const roles = [
                 description: "El sistema califica automáticamente cada lead según comportamiento, interés y presupuesto."
             },
             {
-                iconClass: "unicon-setting",
+                iconClass: "unicon-settings",
                 title: "Distribución Inteligente",
                 description: "Asigna leads a closers automáticamente según disponibilidad, especialidad y rendimiento."
             },
             {
-                iconClass: "unicon-document-layout-right",
+                iconClass: "unicon-document",
                 title: "Análisis de Fuentes",
                 description: "Identifica qué canales generan los mejores leads. Facebook, Instagram, Google, referencias, etc."
             },
             {
-                iconClass: "unicon-bell",
+                iconClass: "unicon-notification",
                 title: "Alertas de Leads Calientes",
                 description: "Recibe notificaciones instantáneas cuando entra un lead de alta calidad que requiere atención inmediata."
             },
             {
-                iconClass: "unicon-mobile-android",
+                iconClass: "unicon-link",
                 title: "Integración con Campañas",
                 description: "Conecta con Facebook Ads, Google Ads y WhatsApp. Todos los leads se centralizan automáticamente."
             }
