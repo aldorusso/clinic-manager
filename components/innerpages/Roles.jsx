@@ -69,14 +69,7 @@ export default function Roles() {
                                                             {role.category}
                                                         </span>
                                                     </div>
-                                                    {/* Placeholder image logic - using standard icons if available or omitting */}
-                                                    {/* <Image
-                            className="w-32px lg:w-40px"
-                            src={role.imageUrl} 
-                            width={40}
-                            height={40}
-                            alt={role.imageAlt}
-                          /> */}
+                                                    <i className={`${role.iconClass} fs-3 text-primary`} />
                                                 </div>
                                                 <p className="fs-6 opacity-70 dark:opacity-80">
                                                     {role.description}

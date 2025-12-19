@@ -102,13 +102,7 @@ export default function RoleDetail({ role }) {
                                     <div key={index}>
                                         <div className="panel vstack gap-3 p-4 bg-white dark:bg-gray-800 rounded-2 h-100">
                                             <div className="panel w-64px h-64px bg-primary bg-opacity-10 rounded-2 d-flex items-center justify-center">
-                                                <Image
-                                                    src={feature.icon}
-                                                    alt={feature.title}
-                                                    width={32}
-                                                    height={32}
-                                                    className="text-primary"
-                                                />
+                                                <i className={`${feature.iconClass} fs-3 text-primary`} />
                                             </div>
                                             <h3 className="h6 m-0">{feature.title}</h3>
                                             <p className="fs-7 text-dark dark:text-white text-opacity-70">
