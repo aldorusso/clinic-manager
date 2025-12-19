@@ -508,3 +508,65 @@ export const blogsPosts4 = allBlogs.map(blog => ({
 export const posts2 = allBlogs.slice(0, 3);
 export const blogPosts7 = allBlogs.slice(0, 5);
 
+// Export for home-7 Blogs component
+export const slidesData = allBlogs.slice(0, 8).map(blog => ({
+  id: blog.id,
+  imgSrc: blog.imgSrc,
+  title: blog.title,
+  excerpt: blog.excerpt
+}));
+
+// Export for home-3 Blog component
+export const blogPosts = allBlogs.slice(0, 3).map(blog => ({
+  id: blog.id,
+  category: blog.category,
+  imageSrc: blog.imgSrc,
+  imageAlt: blog.imgAlt,
+  title: blog.title,
+  authorImgSrc: blog.authorImg,
+  authorName: blog.author,
+  date: blog.date
+}));
+
+// Export for home-4 Blogs component
+export const blogPosts2 = allBlogs.slice(0, 3).map(blog => ({
+  id: blog.id,
+  imageSrc: blog.imgSrc,
+  altText: blog.imgAlt,
+  category: blog.category,
+  title: blog.title,
+  excerpt: blog.excerpt,
+  authorImage: blog.authorImg,
+  authorName: blog.author,
+  date: blog.date
+}));
+
+// Export for home-6 Blogs component
+export const blogPosts3 = allBlogs.slice(0, 6).map(blog => ({
+  id: blog.id,
+  imgSrc: blog.imgSrc,
+  alt: blog.imgAlt,
+  title: blog.title,
+  date: blog.date,
+  caption: blog.imgAlt
+}));
+
+export const blogPosts5 = allBlogs.slice(0, 3).map(blog => ({
+  id: blog.id,
+  imgSrc: blog.imgSrc,
+  imageAlt: blog.imgAlt,
+  title: blog.title,
+  excerpt: blog.excerpt,
+  authorImage: blog.authorImg,
+  authorName: blog.author,
+  date: blog.date
+}));
+
+// Export for home-10 Blogs component
+export const blogPosts6 = allBlogs.slice(0, 6).map(blog => ({
+  id: blog.id,
+  imgSrc: blog.imgSrc,
+  alt: blog.imgAlt,
+  title: blog.title
+}));
+
