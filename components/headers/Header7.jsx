@@ -221,13 +221,13 @@ export default function Header7() {
               <div className="uc-navbar-right">
                 <Link
                   className="uc-link fs-5 text-dark dark:text-white"
-                  href={`/sign-in`}
+                  href={`https://web.clinicmanager.digital/`}
                 >
                   Log in
                 </Link>
                 <Link
                   className="btn btn-md btn-tertiary dark:bg-white dark:text-dark border fs-5 lg:px-3 d-none lg:d-inline-flex shadow-xs"
-                  href={`/sign-up`}
+                  href={`https://web.clinicmanager.digital/`}
                 >
                   Sign up
                 </Link>

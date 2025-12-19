@@ -49,7 +49,7 @@ export default function Hero() {
                       data-anime="translateY: [24, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 750;"
                     >
                       <a
-                        href="/sign-up"
+                        href="https://web.clinicmanager.digital/"
                         className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                       >
                         <span>Prueba Gratis</span>
