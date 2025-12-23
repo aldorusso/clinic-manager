@@ -5,9 +5,9 @@ import Newsletter from "@/components/blog/Newsletter";
 import Blogs1 from "@/components/blog/Blogs1";
 export const metadata = {
   title:
-    "Documentación - Clink.download",
+    "Documentación - ClinicManager",
   description:
-    "Recursos y guías para sacar el máximo provecho de Clink.download.",
+    "Recursos y guías para sacar el máximo provecho de ClinicManager.",
 };
 export default function BlogPage1() {
   return (

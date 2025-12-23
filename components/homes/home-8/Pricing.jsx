@@ -107,8 +107,8 @@ export default function Pricing() {
                                 <li key={i}>
                                   <i
                                     className={`icon icon-narrow ${plan.included[i]
-                                        ? "unicon-checkmark"
-                                        : "unicon-close"
+                                      ? "unicon-checkmark"
+                                      : "unicon-close"
                                       } fw-bold ltr:me-1 rtl:ms-1`}
                                   />
                                   {feature}
@@ -161,7 +161,7 @@ export default function Pricing() {
                     <tr className="table-row border-white">
                       <th className="table-header-cell min-w-300px" scope="row">
                         <div className="text-transparent">
-                          <span>Nom du forfait</span>
+                          <span>Detalles del plan</span>
                         </div>
                       </th>
                       <th
@@ -171,7 +171,7 @@ export default function Pricing() {
                       >
                         <div className="title">
                           <div className="h6 lg:h5 m-0 text-dark">
-                            <span>Starter</span>
+                            <span>Inicial</span>
                           </div>
                         </div>
                       </th>
@@ -182,7 +182,7 @@ export default function Pricing() {
                       >
                         <div className="title">
                           <div className="h6 lg:h5 m-0 text-dark">
-                            <span>Pro</span>
+                            <span>Crecimiento</span>
                           </div>
                         </div>
                       </th>
@@ -193,7 +193,7 @@ export default function Pricing() {
                       >
                         <div className="title">
                           <div className="h6 lg:h5 m-0 text-dark">
-                            <span>Business</span>
+                            <span>Empresarial</span>
                           </div>
                         </div>
                       </th>
@@ -203,7 +203,7 @@ export default function Pricing() {
                     <tr className="table-row table-heading border-0">
                       <th scope="colgroup" colSpan={4} className="py-1 px-0">
                         <div className="h6 m-0 bg-secondary text-tertiary w-100 p-2 rounded-default">
-                          <span>AI Automation key features</span>
+                          <span>Gestión Clínica</span>
                         </div>
                       </th>
                     </tr>
@@ -211,10 +211,10 @@ export default function Pricing() {
                       <th scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Users
+                            Usuarios / Médicos
                           </span>
                           <div
-                            data-uc-tooltip="The number of users of each plan."
+                            data-uc-tooltip="Número de usuarios permitidos"
                             tabIndex={0}
                             aria-expanded="false"
                             role="tooltip"
@@ -225,17 +225,17 @@ export default function Pricing() {
                       </th>
                       <td>
                         <div>
-                          <span>1 user</span>
+                          <span>1 médico</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span>5 users</span>
+                          <span>Hasta 5 médicos</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span>Unlimited users</span>
+                          <span>Ilimitados</span>
                         </div>
                       </td>
                     </tr>
@@ -243,29 +243,21 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Tracking &amp; notifications
+                            Agenda Médica Inteligente
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
+                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
                           </span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
+                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
                           </span>
                         </div>
                       </td>
@@ -281,29 +273,21 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Real-time analytics
+                            Portal del Paciente
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
+                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
                           </span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
+                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
+                            <i className="icon-narrow unicon-checkmark fw-bold" />
                           </span>
                         </div>
                       </td>
@@ -319,48 +303,41 @@ export default function Pricing() {
                       <th scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Files uploads
+                            Almacenamiento
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span>1GB</span>
+                          <span>10 GB</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span>5GB</span>
+                          <span>100 GB</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span>Unlimited</span>
+                          <span>Ilimitado</span>
                         </div>
                       </td>
                     </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
+                  </tbody>
+                  <tbody className="table-body">
+                    <tr className="table-row table-heading border-0">
+                      <th scope="colgroup" colSpan={4} className="py-1 px-0">
+                        <div className="h6 m-0 bg-secondary text-tertiary w-100 p-2 rounded-default">
+                          <span>Marketing y Automatización</span>
+                        </div>
+                      </th>
+                    </tr>
+                    <tr className="table-row border-0">
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            CRM and Zapier integrations
+                            Recordatorios por WhatsApp
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
@@ -389,22 +366,14 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Unlimited team workspaces
+                            Campañas de Email Marketing
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
+                            <i className="icon-narrow unicon-close fw-bold" />
                           </span>
                         </div>
                       </td>
@@ -427,22 +396,14 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            SSO support
+                            CRM Avanzado
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
+                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
+                            <i className="icon-narrow unicon-close fw-bold" />
                           </span>
                         </div>
                       </td>
@@ -466,7 +427,7 @@ export default function Pricing() {
                     <tr className="table-row table-heading border-0">
                       <th scope="colgroup" colSpan={4} className="py-1 px-0">
                         <div className="h6 m-0 bg-secondary text-tertiary w-100 p-2 rounded-default">
-                          <span>Products</span>
+                          <span>Soporte y Seguridad</span>
                         </div>
                       </th>
                     </tr>
@@ -474,37 +435,23 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Email Template Builder
+                            Nivel de Soporte
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
+                          <span>Email</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
+                          <span>Prioritario</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
+                          <span>Dedicado 24/7</span>
                         </div>
                       </td>
                     </tr>
@@ -512,37 +459,23 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Landing Page Builder
+                            Copias de Seguridad
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
+                          <span>Diarias</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
+                          <span>En tiempo real</span>
                         </div>
                       </td>
                       <td>
                         <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
+                          <span>En tiempo real</span>
                         </div>
                       </td>
                     </tr>
@@ -550,139 +483,8 @@ export default function Pricing() {
                       <th className="" scope="row">
                         <div className="hstack gap-1 justify-start">
                           <span className="fs-6 fw-normal text-dark">
-                            Reporting &amp; analytics
+                            Migración de Datos
                           </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            E-commerce and retail
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Large Community
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="table-body">
-                    <tr className="table-row table-heading border-0">
-                      <th scope="colgroup" colSpan={4} className="py-1 px-0">
-                        <div className="h6 m-0 bg-secondary text-tertiary w-100 p-2 rounded-default">
-                          <span>Chatbots</span>
-                        </div>
-                      </th>
-                    </tr>
-                    <tr className="table-row border-0">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            To-Do List
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
                         </div>
                       </th>
                       <td>
@@ -696,281 +498,6 @@ export default function Pricing() {
                         <div>
                           <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
                             <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Reports
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Spreadsheets
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Collaboration
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Chatbots
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                  <tbody className="table-body">
-                    <tr className="table-row table-heading border-0">
-                      <th scope="colgroup" colSpan={4} className="py-1 px-0">
-                        <div className="h6 m-0 bg-secondary text-tertiary w-100 p-2 rounded-default">
-                          <span>AI-Powered Solutions</span>
-                        </div>
-                      </th>
-                    </tr>
-                    <tr className="table-row border-0">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Automation
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary-50 text-tertiary-400">
-                            <i className="icon-narrow unicon-close fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Teaming
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr className="table-row border-gray-100 dark:border-gray-600">
-                      <th className="" scope="row">
-                        <div className="hstack gap-1 justify-start">
-                          <span className="fs-6 fw-normal text-dark">
-                            Use Case
-                          </span>
-                          <div
-                            data-uc-tooltip="The number of users of each plan."
-                            tabIndex={0}
-                            aria-expanded="false"
-                            role="tooltip"
-                          >
-                            <i className="icon icon-narrow unicon-information-filled mt-px" />
-                          </div>
-                        </div>
-                      </th>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
-                          </span>
-                        </div>
-                      </td>
-                      <td>
-                        <div>
-                          <span className="cstack w-24px h-24px rounded-circle bg-tertiary text-white">
-                            <i className="icon-narrow unicon-checkmark fw-bold" />
                           </span>
                         </div>
                       </td>
@@ -994,7 +521,7 @@ export default function Pricing() {
                 className="h4 m-0"
                 style={{ transform: "translateY(0px)", opacity: 1 }}
               >
-                What every plan gets you
+                Lo que incluyen todos los planes
               </h4>
               <div
                 className="row child-cols-6 lg:child-cols g-2 col-match"
@@ -1012,7 +539,7 @@ export default function Pricing() {
                       />
                     </span>
                     <span className="fs-6 fw-medium mb-narrow text-inherit">
-                      Enrich Data with Context &amp; Risk Management
+                      Gestión integral de pacientes y riesgos
                     </span>
                   </div>
                 </div>
@@ -1028,7 +555,7 @@ export default function Pricing() {
                       />
                     </span>
                     <span className="fs-6 fw-medium mb-narrow text-inherit">
-                      Intuitive dashboard for at-a-glance insights
+                      Panel de control intuitivo y personalizable
                     </span>
                   </div>
                 </div>
@@ -1044,7 +571,7 @@ export default function Pricing() {
                       />
                     </span>
                     <span className="fs-6 fw-medium mb-narrow text-inherit">
-                      Automated data analysis and reporting
+                      Reportes y análisis automáticos
                     </span>
                   </div>
                 </div>
@@ -1060,7 +587,7 @@ export default function Pricing() {
                       />
                     </span>
                     <span className="fs-6 fw-medium mb-narrow text-inherit">
-                      Scalable plans to fit any business size
+                      Planes escalables para tu crecimiento
                     </span>
                   </div>
                 </div>
@@ -1076,7 +603,7 @@ export default function Pricing() {
                       />
                     </span>
                     <span className="fs-6 fw-medium mb-narrow text-inherit">
-                      Third-Party Management &amp; AI-Powered Tools
+                      Integraciones y herramientas IA
                     </span>
                   </div>
                 </div>

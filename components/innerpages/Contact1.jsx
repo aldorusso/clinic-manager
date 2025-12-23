@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Contact1() {
   return (
@@ -68,16 +69,14 @@ export default function Contact1() {
                       <div className="panel z-1">
                         <div className="vstack gap-3">
                           <p className="fs-5 xl:fs-4 fw-medium">
-                            “This software simplifies the website building
-                            process, making it a breeze to manage our online
-                            presence.”
+                            “Este software simplifica la gestión de nuestra clínica, haciendo que sea muy fácil administrar nuestra presencia online y nuestros pacientes.”
                           </p>
                           <div className="vstack gap-0">
                             <p className="fs-6 lg:fs-5 fw-medium">
-                              David Larry
+                              Dr. Alejandro Ruiz
                             </p>
                             <span className="fs-7 opacity-80">
-                              Founder &amp; CEO
+                              Fundador y CEO
                             </span>
                           </div>
                         </div>
@@ -122,6 +121,12 @@ export default function Contact1() {
                       required
                       defaultValue={""}
                     />
+                    <div className="form-check d-flex items-center gap-2 mt-2">
+                      <input className="form-check-input mt-0" type="checkbox" required id="privacyPolicy" />
+                      <label className="form-check-label fs-7 text-dark dark:text-white text-opacity-70" htmlFor="privacyPolicy">
+                        He leído y acepto la <Link href="/privacidad" className="uc-link">política de privacidad</Link> y el tratamiento de datos.
+                      </label>
+                    </div>
                     <button
                       className="btn btn-primary btn-md text-white mt-2"
                       type="submit"
@@ -130,7 +135,7 @@ export default function Contact1() {
                     </button>
                     <p className="text-center">
                       O escríbenos por
-                      <a className="uc-link" href="mailto:hola@clink.download">
+                      <a className="uc-link px-1" href="mailto:hola@clinicmanager.digital">
                         email
                       </a>
                       .

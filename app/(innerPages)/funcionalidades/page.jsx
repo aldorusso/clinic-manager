@@ -9,9 +9,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Brands2 from "@/components/common/Brands2";
 export const metadata = {
   title:
-    "Funcionalidades - Clink.download",
+    "Funcionalidades - ClinicManager",
   description:
-    "Descubre todas las funcionalidades de Clink.download: CRM, Agenda, Roles y más.",
+    "Descubre todas las funcionalidades de ClinicManager: CRM, Agenda, Roles y más.",
 };
 export default function FeaturesPage() {
   return (

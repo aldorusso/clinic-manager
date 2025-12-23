@@ -34,8 +34,7 @@ export default function Footer7() {
                           ClinicManager
                         </Link>
                         <p className="mt-2">
-                          Design amazing digital experiences that create more
-                          happy in the world.
+                          La plataforma integral para gestionar y escalar tu clínica estética.
                         </p>
                       </div>
                       <LanguageSelect />
@@ -59,7 +58,7 @@ export default function Footer7() {
                 </div>
               </div>
               <div className="uc-footer-bottom panel vstack lg:hstack gap-4 justify-between text-center pt-4 lg:pt-6 mt-6 border-top">
-                <p>Lexend © {new Date().getFullYear()}, All rights reserved.</p>
+                <p>ClinicManager © {new Date().getFullYear()}, Todos los derechos reservados.</p>
                 <ul className="nav-x justify-center gap-2">
                   <li>
                     <a className="duration-150 hover:text-primary" href="#">

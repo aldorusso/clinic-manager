@@ -8,7 +8,7 @@ import Brands from "@/components/common/Brands2";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Contacto - Clink.download",
+    "Contacto - ClinicManager",
   description:
     "Hablemos sobre cómo hacer crecer tu clínica.",
 };

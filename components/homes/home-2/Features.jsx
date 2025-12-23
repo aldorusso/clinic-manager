@@ -19,7 +19,7 @@ export default function Features() {
                 Propuesta de Valor
               </h2>
               <p className="fs-6 xl:fs-5 text-dark dark:text-white text-opacity-70">
-                Clink.download diferencia claramente entre Leads y Pacientes, permitiendo estrategias personalizadas.
+                ClinicManager diferencia claramente entre Leads y Pacientes, permitiendo estrategias personalizadas.
               </p>
             </div>
             <div className="row child-cols-12 sm:child-cols-6 xl:child-cols-4 col-match justify-center g-2 lg:g-4">

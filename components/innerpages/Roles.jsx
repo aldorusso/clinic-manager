@@ -58,30 +58,42 @@ export default function Roles() {
                             >
                                 {roles.map((role, index) => (
                                     <div key={index}>
-                                        <div className="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 border">
-                                            <div className="vstack gap-3">
-                                                <div className="hstack justify-between items-center">
-                                                    <div className="vstack">
-                                                        <h5 className="h5 m-0 text-dark">
+                                        <div className="panel vstack gap-0 rounded lg:rounded-2 border overflow-hidden h-100 bg-white dark:bg-gray-800 transition-all hover:shadow-md">
+                                            <div className="position-relative w-100 h-250px overflow-hidden">
+                                                <Image
+                                                    src={role.heroImage}
+                                                    alt={role.name}
+                                                    fill
+                                                    style={{ objectFit: "cover" }}
+                                                    className="transition-transform duration-700 hover:scale-110"
+                                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                />
+                                                <div className="position-absolute bottom-0 start-0 m-2">
+                                                    <span className="badge bg-white text-primary shadow-xs fs-7 fw-bold py-1 px-2 rounded">
+                                                        {role.category}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div className="panel vstack justify-between gap-4 p-3 sm:p-4 flex-1">
+                                                <div className="vstack gap-2">
+                                                    <div className="hstack justify-between items-start">
+                                                        <h5 className="h5 m-0 text-dark dark:text-white">
                                                             {role.name}
                                                         </h5>
-                                                        <span className="fs-7 opacity-70 dark:opacity-80">
-                                                            {role.category}
-                                                        </span>
+                                                        <i className={`${role.iconClass} fs-4 text-primary opacity-80`} />
                                                     </div>
-                                                    <i className={`${role.iconClass} fs-3 text-primary`} />
+                                                    <p className="fs-6 opacity-70 dark:opacity-80 line-clamp-3">
+                                                        {role.description}
+                                                    </p>
                                                 </div>
-                                                <p className="fs-6 opacity-70 dark:opacity-80">
-                                                    {role.description}
-                                                </p>
+                                                <Link
+                                                    href={`/roles/${role.slug}`}
+                                                    className="btn btn-sm btn-outline-primary w-100 justify-center mt-auto"
+                                                >
+                                                    <span>Ver detalles</span>
+                                                    <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
+                                                </Link>
                                             </div>
-                                            <Link
-                                                href={`/roles/${role.slug}`}
-                                                className="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
-                                            >
-                                                <span>Saber más</span>
-                                                <i className="icon icon-narrow unicon-arrow-right rtl:rotate-180" />
-                                            </Link>
                                         </div>
                                     </div>
                                 ))}

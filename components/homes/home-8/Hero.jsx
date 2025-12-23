@@ -31,18 +31,17 @@ export default function Hero() {
                         data-uc-splitext="types: 'chars'"
                       // data-anime="targets: > *; translateY: [-5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 250; delay: anime.stagger(50);"
                       >
-                        Impulsa el crecimiento{" "}
+                        Deja de perder pacientes{" "}
                       </span>
-                      con nuestra <br className="d-none lg:d-block" />
-                      plataforma SaaS de vanguardia
+                      por falta de <br className="d-none lg:d-block" />
+                      seguimiento.
                     </h1>
                     <p
                       className="fs-6 xl:fs-3 xl:px-10 dark:text-white text-opacity-70"
                       data-uc-splitext="types: 'words'"
                     // data-anime="targets: > *; translateX: [5, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 450; delay: anime.stagger(50, {start:650});"
                     >
-                      Optimiza tus flujos de trabajo, aumenta la productividad y
-                      haz crecer tu clínica con nuestra solución integral.
+                      Centraliza tus leads de redes sociales y conviértelos en citas reales. Automatiza tus ventas mientras tú te enfocas en los tratamientos.
                     </p>
                     <div
                       className="vstack md:hstack justify-center gap-1 my-1 lg:my-3"
@@ -52,7 +51,7 @@ export default function Hero() {
                         href="https://app.clinicmanager.digital/"
                         className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                       >
-                        <span>Prueba Gratis</span>
+                        <span>Digitaliza mi clínica ahora</span>
                       </a>
                     </div>
                     <div

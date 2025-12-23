@@ -82,7 +82,7 @@ export default function Cta() {
             >
               <h2 className="h3 sm:h1 xl:display-6 m-0">
                 Empieza a crecer con <br />
-                Clink.download hoy
+                ClinicManager hoy
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
                 Con integraciones nativas de CRM para optimizar todo el flujo de trabajo de tu clínica.
@@ -101,7 +101,7 @@ export default function Cta() {
                 </div>
                 <div className="col-12 sm:col-auto">
                   <Link
-                    href={`/page-pricing`}
+                    href={`/precios`}
                     className="btn btn-md h-48px lg:h-56px w-100 sm:min-w-150px btn-primary text-white"
                   >
                     Prueba gratis

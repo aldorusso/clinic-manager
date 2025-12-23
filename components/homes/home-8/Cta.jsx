@@ -115,12 +115,12 @@ export default function Cta() {
                     href="https://app.clinicmanager.digital/"
                     className="btn btn-md xl:btn-lg btn-primary border px-3 lg:px-5 w-auto"
                   >
-                    <span>Prueba Gratis</span>
+                    <span>Empezar ahora</span>
                   </a>
                 </div>
                 <div className="vstack sm:hstack justify-center gap-1 fs-6 text-gray-900 dark:text-white sm-flex-column">
                   <div className="hstack justify-center gap-2">
-                    <b>Exellent</b>
+                    <b>Excelente</b>
                     <div className="rating panel">
                       <div className="hstack justify-center gap-narrow text-warning">
                         <i className="icon unicon-star-filled" />
@@ -133,7 +133,7 @@ export default function Cta() {
                   </div>
                   <div className="hstack justify-center gap-narrow">
                     <span className="desc rtl:order-first">
-                      4,000+ reviews on
+                      Más de 4,000 reseñas en
                     </span>
                     <div>
                       <Image

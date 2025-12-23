@@ -10,14 +10,14 @@ export default function Cta() {
           <div className="section-inner panel p-4 sm:p-6 xl:p-8 rounded-2 bg-secondary dark:bg-gray-800 overflow-hidden">
             <div className="vstack gap-2 max-w-550px items-center lg:items-start m-auto lg:m-0 text-center lg:text-start rtl:lg:text-end">
               <h2 className="h3 sm:h1 m-0">
-                Crea sitios web impresionantes que se ajusten a tus necesidades.
+                Gestiona y escala tu clínica estética con la mejor herramienta.
               </h2>
               <div className="vstack sm:hstack justify-center lg:justify-start gap-1 lg:gap-2 mt-1 lg:mt-2">
                 <Link
-                  href={`/page-pricing`}
+                  href={`/precios`}
                   className="btn btn-md lg:btn-lg btn-primary text-white"
                 >
-                  Prueba Clinik hoy
+                  Prueba ClinicManager hoy
                 </Link>
               </div>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">

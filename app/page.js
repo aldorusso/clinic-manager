@@ -11,8 +11,8 @@ import Pricing from "@/components/common/Pricing";
 import React from "react";
 
 export const metadata = {
-  title: "Inicio || Clinik.download - La herramienta integral para tu clínica estética",
-  description: "Gestiona y haz crecer tu clínica estética con Clinik.download.",
+  title: "Inicio || ClinicManager - La herramienta integral para tu clínica estética",
+  description: "Gestiona y haz crecer tu clínica estética con ClinicManager.",
 };
 
 export default function page() {

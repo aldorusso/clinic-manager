@@ -1,33 +1,20 @@
 export const testimonials = [
   {
-    quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on
-      building out programs to help our employees. 
-      Lorem ipsum dolor sit amet consectetur adipisicing
-      elit. Quas nisi consectetur adipisci eaque. Porro,
-      atque.”`,
+    quote: `“La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir programas para ayudar a nuestros empleados. Esta plataforma ha transformado nuestra eficiencia.”`,
     name: "Mark Zellers",
-    position: "Director of Human Resources.",
+    position: "Director de Recursos Humanos.",
     imgSrc: "/assets/images/portrait/01.jpg",
   },
   {
-    quote: `“I can create a custom proposal with dynamic pricing
-      tables, and get approval from my boss all within 36
-      minutes and looks fantastic.
-      Dolor sit amet consectetur adipisicing elit. Quas
-      nisi consectetur adipisci eaque. Porro, atque.”`,
+    quote: `“Puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en menos de 30 minutos. Se ve fantástico y profesional.”`,
     name: "André Garcia",
-    position: "Client Success Manager",
+    position: "Gerente de Éxito del Cliente",
     imgSrc: "/assets/images/portrait/02.jpg",
   },
   {
-    quote: `“This powerful tool eliminates the need to leave
-      Salesforce to get things done, 
-      quas libero placeat voluptates sed sequi? Corporis,
-      earum vitae. 
-      Tempore pariatur dignissimos coming for great tool
-      of repellat quae a eaque culpa iusto fugit.”`,
+    quote: `“Esta poderosa herramienta elimina la necesidad de salir de nuestro CRM para hacer las cosas. Es el complemento perfecto que estábamos buscando para optimizar nuestro flujo de trabajo.”`,
     name: "Matt Henderson",
-    position: "Director of Sales Operations",
+    position: "Director de Operaciones de Ventas",
     imgSrc: "/assets/images/portrait/03.jpg",
   },
 ];
@@ -66,27 +53,27 @@ export const slidesData = [
 export const reviews = [
   {
     name: "Mark Zellers",
-    position: "CEO, Co-Founder",
+    position: "CEO, Cofundador",
     feedback:
-      "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
   },
   {
     name: "Natalia Larsson",
-    position: "Director of Sales",
+    position: "Directora de Ventas",
     feedback:
-      "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+      "“Esta poderosa herramienta elimina la necesidad de salir de Salesforce para hacer las cosas, ya que puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en 36 minutos.”",
   },
   {
     name: "Sarah Edrissi",
-    position: "Lead Marketing",
+    position: "Líder de Marketing",
     feedback:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers than comply with this regulation and as we look to create our website and this builder just outstanding!”",
+      "“Estamos en Europa y la última regulación de protección de datos nos obliga a buscar proveedores de servicios que cumplan con esta regulación y, mientras buscábamos crear nuestro sitio web, ¡este constructor es simplemente excepcional!”",
   },
   {
     name: "Anna Yon",
-    position: "Senior UI/UX Designer",
+    position: "Diseñadora UI/UX Senior",
     feedback:
-      "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
   },
 ];
 
@@ -94,66 +81,66 @@ export const testimonials2 = [
   {
     brandImg: "/assets/images/brands/brand-07.svg",
     testimonial:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     authorImg: "/assets/images/avatars/01.png",
     authorName: "Mark Zellers",
-    authorRole: "CEO, Co-Founder",
+    authorRole: "CEO, Cofundador",
   },
   {
     brandImg: "/assets/images/brands/brand-06.svg",
     testimonial:
-      "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+      "“Esta poderosa herramienta elimina la necesidad de salir de Salesforce para hacer las cosas, ya que puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en 36 minutos.”",
     authorImg: "/assets/images/avatars/04.png",
     authorName: "Natalia Larsson",
-    authorRole: "Director of Sales",
+    authorRole: "Directora de Ventas",
   },
   {
     brandImg: "/assets/images/brands/brand-08.svg",
     testimonial:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder just outstanding!”",
+      "“Estamos en Europa y la última regulación de protección de datos nos obliga a buscar proveedores de servicios que cumplan con esta regulación y, mientras buscábamos crear nuestro sitio web, ¡este constructor es simplemente excepcional!”",
     authorImg: "/assets/images/avatars/03.png",
     authorName: "Sarah Edrissi",
-    authorRole: "Lead Marketing",
+    authorRole: "Líder de Marketing",
   },
   {
     brandImg: "/assets/images/brands/brand-01.svg",
     testimonial:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     authorImg: "/assets/images/avatars/08.png",
     authorName: "Anna Yon",
-    authorRole: "Senior UI/UX Designer",
+    authorRole: "Diseñadora UI/UX Senior",
   },
   {
     brandImg: "/assets/images/brands/brand-02.svg",
     testimonial:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     authorImg: "/assets/images/avatars/01.png",
     authorName: "Mark Zellers",
-    authorRole: "CEO, Co-Founder",
+    authorRole: "CEO, Cofundador",
   },
   {
     brandImg: "/assets/images/brands/brand-03.svg",
     testimonial:
-      "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+      "“Esta poderosa herramienta elimina la necesidad de salir de Salesforce para hacer las cosas, ya que puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en 36 minutos.”",
     authorImg: "/assets/images/avatars/04.png",
     authorName: "Natalia Larsson",
-    authorRole: "Director of Sales",
+    authorRole: "Directora de Ventas",
   },
   {
     brandImg: "/assets/images/brands/brand-04.svg",
     testimonial:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder just outstanding!”",
+      "“Estamos en Europa y la última regulación de protección de datos nos obliga a buscar proveedores de servicios que cumplan con esta regulación y, mientras buscábamos crear nuestro sitio web, ¡este constructor es simplemente excepcional!”",
     authorImg: "/assets/images/avatars/03.png",
     authorName: "Sarah Edrissi",
-    authorRole: "Lead Marketing",
+    authorRole: "Líder de Marketing",
   },
   {
     brandImg: "/assets/images/brands/brand-05.svg",
     testimonial:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     authorImg: "/assets/images/avatars/08.png",
     authorName: "Anna Yon",
-    authorRole: "Senior UI/UX Designer",
+    authorRole: "Diseñadora UI/UX Senior",
   },
 ];
 
@@ -179,7 +166,7 @@ export const testimonials3 = [
   {
     brandImgSrc: "/assets/images/brands/brand-08.svg",
     brandImgAlt: "Brand",
-    text: "“Buscábamos una solución que cumpliera con todas las normativas de privacidad y que fuera fácil de usar. Clink.download ha superado nuestras expectativas.”",
+    text: "“Buscábamos una solución que cumpliera con todas las normativas de privacidad y que fuera fácil de usar. ClinicManager ha superado nuestras expectativas.”",
     avatarImgSrc: "/assets/images/avatars/03.png",
     avatarImgAlt: "Marta Sánchez",
     name: "Marta Sánchez",
@@ -253,7 +240,7 @@ export const testimonialsData = [
     name: "Sarah Edrissi",
     role: "Lead Marketing",
     quote:
-      "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website, this builder is just outstanding!”",
+      "“Estamos en Europa y la última regulación de protección de datos nos obliga a buscar proveedores de servicios que cumplan con esta regulación y, mientras buscábamos crear nuestro sitio web, ¡este constructor es simplemente excepcional!”",
   },
   {
     id: 4,
@@ -261,53 +248,53 @@ export const testimonialsData = [
     name: "Anna Yon",
     role: "Senior UI/UX Designer",
     quote:
-      "“We’re looking for people who share our vision! Most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+      "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
   },
 ];
 
 export const testimonials5 = [
   {
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate to help our employees.”",
+    text: "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     name: "Mark Zellers",
     imgSrc: "/assets/images/avatars/01.png",
   },
   {
-    text: "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+    text: "“Esta poderosa herramienta elimina la necesidad de salir de Salesforce para hacer las cosas, ya que puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en 36 minutos.”",
     name: "Jason Barella",
     imgSrc: "/assets/images/avatars/02.png",
   },
   {
-    text: "“Look for service suppliers that comply with this regulation, and as we look to create our website, this builder is just outstanding!”",
+    text: "“Buscamos proveedores de servicios que cumplan con esta regulación, y mientras buscábamos crear nuestro sitio web, ¡este constructor es simplemente excepcional!”",
     name: "Sarah Edrissi",
     imgSrc: "/assets/images/avatars/03.png",
   },
   {
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     name: "Anna Yon",
     imgSrc: "/assets/images/avatars/08.png",
   },
   {
-    text: "“We’re looking for people who share our vision! most of our time used to be taken up by most of alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     name: "Jaden Karl",
     imgSrc: "/assets/images/avatars/05.png",
   },
   {
-    text: "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+    text: "“Esta poderosa herramienta elimina la necesidad de salir de Salesforce para hacer las cosas, ya que puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en 36 minutos.”",
     name: "Ederson Hani",
     imgSrc: "/assets/images/avatars/06.png",
   },
   {
-    text: "“We are based in Europe and the latest Data Protection Regulation forces us to look for service suppliers that comply with this regulation and as we look to create our website and this builder is just outstanding!”",
+    text: "“Estamos en Europa y la última regulación de protección de datos nos obliga a buscar proveedores de servicios que cumplan con esta regulación y, mientras buscábamos crear nuestro sitio web, ¡este constructor es simplemente excepcional!”",
     name: "Matt Peterson",
     imgSrc: "/assets/images/avatars/07.png",
   },
   {
-    text: "“We’re looking for people who share our vision! Most of our time used to be taken up by most of the alternate administrative work whereas now we can focus on building out to help our employees.”",
+    text: "“¡Buscamos personas que compartan nuestra visión! La mayor parte de nuestro tiempo solía ser absorbido por tareas administrativas, mientras que ahora podemos enfocarnos en construir para ayudar a nuestros empleados.”",
     name: "Natalia Cherry",
     imgSrc: "/assets/images/avatars/10.png",
   },
   {
-    text: "“This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables, and get approval from my boss all within 36 minutes.”",
+    text: "“Esta poderosa herramienta elimina la necesidad de salir de Salesforce para hacer las cosas, ya que puedo crear una propuesta personalizada con tablas de precios dinámicas y obtener la aprobación de mi jefe en 36 minutos.”",
     name: "Muhammed Khan",
     imgSrc: "/assets/images/avatars/11.png",
   },

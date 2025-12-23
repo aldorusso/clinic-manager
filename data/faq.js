@@ -1,7 +1,7 @@
 export const accordionItems = [
   {
     id: 1,
-    question: "¿Necesito conocimientos técnicos para usar Clink.download?",
+    question: "¿Necesito conocimientos técnicos para usar ClinicManager?",
     answer:
       "No, nuestra plataforma es intuitiva y está diseñada para ser utilizada por todo el equipo de la clínica sin necesidad de conocimientos de programación.",
     controls: "uc-accordion-24",

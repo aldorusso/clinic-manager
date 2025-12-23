@@ -9,7 +9,7 @@ import Cta from "@/components/innerpages/features/Cta";
 import Pricing from "@/components/innerpages/Pricing";
 export const metadata = {
   title:
-    "Precios - Clink.download",
+    "Precios - ClinicManager",
   description:
     "Planes flexibles para cada etapa de tu clínica estética.",
 };

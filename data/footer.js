@@ -2,7 +2,7 @@ export const footerLinks = [
   {
     links: [
       { href: "/funcionalidades", label: "Funcionalidades" },
-      { href: "/equipo", label: "Roles" },
+      { href: "/roles", label: "Roles" },
       { href: "/precios", label: "Precios" },
       { href: "/blog", label: "Documentación" },
     ],
@@ -220,32 +220,24 @@ export const footerLinks5 = [
 export const footerLinks6 = [
   {
     links: [
-      { text: "How it works", href: "#how_it_works" },
-      { text: "Features", href: "#features" },
-      { text: "Key Goods", href: "#key_features" },
-      { text: "Pro Elements", href: "#builder_elements" },
-      { text: "Pricing", href: "#pricing" },
-      { text: "Changelog", href: "#" },
+      { text: "Funcionalidades", href: "/funcionalidades" },
+      { text: "Roles", href: "/roles" },
+      { text: "Precios", href: "/precios" },
+      { text: "Documentación", href: "/blog" },
     ],
   },
   {
     links: [
-      { text: "About us", href: "/nosotros", isLink: true },
-      { text: "Careers", href: "/empleo", isLink: true },
-      { text: "Press", href: "#", isLink: false },
-      { text: "News", href: "/blog", isLink: true },
-      { text: "Media kit", href: "#", isLink: false },
-      { text: "Contact", href: "/contacto", isLink: true },
+      { text: "Nosotros", href: "/nosotros", isLink: true },
+      { text: "Empleo", href: "/empleo", isLink: true },
+      { text: "Contacto", href: "/contacto", isLink: true },
     ],
   },
   {
     links: [
       { text: "Blog", href: "/blog", isLink: true },
-      { text: "Newsletter", href: "#", isLink: false },
-      { text: "Events", href: "#", isLink: false },
-      { text: "Help center", href: "#", isLink: false },
-      { text: "Tutorials", href: "#", isLink: false },
-      { text: "Support", href: "#", isLink: false },
+      { text: "Términos", href: "/terminos", isLink: true },
+      { text: "Privacidad", href: "/privacidad", isLink: true },
     ],
     className: "d-none lg:d-block", // Additional class for the third section
   },

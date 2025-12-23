@@ -8,9 +8,9 @@ import Roles from "@/components/innerpages/Roles";
 
 export const metadata = {
     title:
-        "Roles || Clinik.download - Gestión de roles y permisos",
+        "Roles || ClinicManager - Gestión de roles y permisos",
     description:
-        "Descubre los diferentes roles y permisos disponibles en Clinik.download.",
+        "Descubre los diferentes roles y permisos disponibles en ClinicManager.",
 };
 
 export default function RolesPage() {

@@ -12,10 +12,8 @@ import Testimonials from "@/components/homes/home-8/Testimonials";
 import Tools from "@/components/homes/home-8/Tools";
 import React from "react";
 export const metadata = {
-  title:
-    "Home 8 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
-  description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+  title: "Inicio || ClinicManager - La herramienta integral para tu clínica estética",
+  description: "Gestiona y haz crecer tu clínica estética con ClinicManager. Software integral de gestión para clínicas.",
 };
 export default function page() {
   return (
