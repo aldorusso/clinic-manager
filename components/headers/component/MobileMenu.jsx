@@ -227,16 +227,21 @@ export default function MobileMenu() {
             ))}
             <li className="hr opacity-10 my-1" />
             <li>
-              <Link href={`https://app.clinicmanager.digital/`}>Prueba Gratis</Link>
+              <Link href={`/colaboradores`}>Colaboradores</Link>
+            </li>
+            <li>
+              <Link href={`/contacto`}>Contacto</Link>
+            </li>
+            <li>
+              <Link href={`/blog`}>Blog</Link>
+            </li>
+            <li className="hr opacity-10 my-1" />
+            <li>
+              <Link href={`/precios`}>Prueba Gratis</Link>
             </li>
             <li>
               <Link href={`https://app.clinicmanager.digital/`}>Iniciar Sesión</Link>
             </li>
-            {/* <li>
-              <a href="https://themeforest.net/user/ib-themes/portfolio">
-                Buy Template
-              </a>
-            </li> */}
           </ul>
           <ul className="social-icons nav-x mt-4">
             <li>

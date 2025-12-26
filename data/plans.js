@@ -4,35 +4,35 @@ export const panelsData = [
     lightImgSrc: "/assets/images/template/icon-diamond.svg",
     darkImgSrc: "/assets/images/template/icon-diamond-dark.svg",
     altText: "impact-icon",
-    title: "Make an impact",
+    title: "Generar Impacto",
     description:
-      "We’re building something big. Something that has the power to change the trajectory of any sized business for the better.",
+      "Estamos construyendo algo grande. Algo que tiene el poder de cambiar la trayectoria de las clínicas estéticas para mejor.",
   },
   {
     id: 2,
     lightImgSrc: "/assets/images/template/icon-trophy.svg",
     darkImgSrc: "/assets/images/template/icon-trophy-dark.svg",
     altText: "crown-icon",
-    title: "Learn",
+    title: "Excelencia",
     description:
-      "Lexend team are masters of their craft. Even though we’re all experts in our respective fields, we always make time to expand our minds.",
+      "El equipo de ClinicManager domina su oficio. Siempre nos tomamos el tiempo para expandir nuestros conocimientos y mejorar.",
   },
   {
     id: 3,
     lightImgSrc: "/assets/images/template/icon-globe.svg",
     darkImgSrc: "/assets/images/template/icon-globe-dark.svg",
     altText: "fun-icon",
-    title: "Have fun",
+    title: "Pasión",
     description:
-      "We work hard and play harder. We believe in the importance of celebrating wins big or small, for the business or individuals.",
+      "Trabajamos duro y con pasión. Creemos en la importancia de celebrar cada victoria, grande o pequeña, junto a nuestros clientes.",
   },
   {
     id: 4,
     lightImgSrc: "/assets/images/template/icon-crown.svg",
     darkImgSrc: "/assets/images/template/icon-crown-dark.svg",
     altText: "empathy-icon",
-    title: "Empathy",
+    title: "Empatía",
     description:
-      "We strive to be empathetic to every customer and colleague and by doing so we can provide a better experience for all.",
+      "Nos esforzamos por ser empáticos con cada cliente y colega, brindando así una mejor experiencia para todos.",
   },
 ];

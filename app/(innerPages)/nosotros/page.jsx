@@ -6,14 +6,14 @@ import Brands from "@/components/common/Brands2";
 import About2 from "@/components/innerpages/About2";
 import AboutValues from "@/components/innerpages/AboutValues";
 import Feedback from "@/components/homes/home-2/Feedback";
-import Timeline from "@/components/homes/home-1/Timeline";
+
 import Team from "@/components/homes/home-1/Team";
 import Cta from "@/components/innerpages/Cta";
 export const metadata = {
   title:
-    "About || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sobre Nosotros - ClinicManager",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Conoce la historia y el equipo detrás de ClinicManager, la plataforma líder para clínicas estéticas.",
 };
 export default function AboutPage() {
   return (
@@ -44,7 +44,6 @@ export default function AboutPage() {
           <About2 />
           <AboutValues />
           <Feedback />
-          <Timeline />
           <Team />
           <Cta />
         </div>

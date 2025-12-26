@@ -21,13 +21,8 @@ export const menuItems = [
   },
   {
     id: 5,
-    href: "/blog",
-    label: "Blog",
-  },
-  {
-    id: 6,
-    href: "/contacto",
-    label: "Contacto",
+    href: "/nosotros",
+    label: "Nosotros",
   },
 ];
 

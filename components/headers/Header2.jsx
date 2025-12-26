@@ -45,8 +45,30 @@ export default function Header2() {
       className={`uc-header header-default uc-navbar-sticky-wrap z-999 uc-sticky ${scrollingUp ? " uc-sticky-below uc-sticky-fixed headerFixed" : ""
         }`}
     >
+      <div className="uc-navbar-top panel overflow-hidden bg-white text-gray-900 dark:bg-gray-900 border-bottom d-none lg:d-block py-2">
+        <div className="container max-w-xl">
+          <div className="uc-navbar min-h-40px lg:min-h-48px items-center">
+            <div className="uc-navbar-left">
+              <div className="uc-navbar-nav gap-2 lg:gap-3 fs-7 text-uppercase fw-bold text-gray-900 dark:text-white">
+                <Link href="/colaboradores" className="text-none">Colaboradores</Link>
+                <span className="opacity-50">/</span>
+                <Link href="/contacto" className="text-none">Contacto</Link>
+                <span className="opacity-50">/</span>
+                <Link href="/blog" className="text-none">Blog</Link>
+              </div>
+            </div>
+            <div className="uc-navbar-right">
+              <div className="hstack gap-2 lg:gap-3">
+                <a href="mailto:hola@clinicmanager.digital" className="text-none fs-7 fw-medium text-gray-900 dark:text-white">
+                  hola@clinicmanager.digital
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <nav
-        className={`uc-navbar-container uc-navbar-float ft-tertiary z-1 ${scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
+        className={`uc-navbar-container ft-tertiary z-1 ${scrollingUp ? "uc-navbar-sticky" : "uc-navbar-transparent"
           }`}
       >
         <div className="container max-w-xl">

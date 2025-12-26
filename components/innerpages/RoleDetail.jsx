@@ -190,13 +190,13 @@ export default function RoleDetail({ role }) {
                                 <div className="hstack gap-2 justify-center mt-2">
                                     <Link
                                         href="/precios"
-                                        className="btn btn-white text-primary"
+                                        className="btn bg-white text-primary hover:bg-gray-200"
                                     >
                                         Ver planes
                                     </Link>
                                     <Link
                                         href="/contacto"
-                                        className="btn btn-outline-white"
+                                        className="btn border border-white text-white hover:bg-white hover:text-primary"
                                     >
                                         Contactar
                                     </Link>

@@ -4,6 +4,7 @@ import Blogs from "@/components/homes/home-2/Blogs";
 import Cta from "@/components/homes/home-2/Cta";
 import Faq from "@/components/homes/home-2/Faq";
 import Features from "@/components/homes/home-2/Features";
+import SystemFlow from "@/components/homes/home-2/SystemFlow";
 import Feedback from "@/components/homes/home-2/Feedback";
 import Hero from "@/components/homes/home-2/Hero";
 import KeyFeatures from "@/components/homes/home-2/KeyFeatures";
@@ -23,6 +24,7 @@ export default function page() {
         <div id="wrapper" className="wrap">
           <Hero />
           <Features />
+          <SystemFlow />
           <KeyFeatures />
           <Pricing />
           <Faq />
