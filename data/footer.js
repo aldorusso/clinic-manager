@@ -11,6 +11,7 @@ export const footerLinks = [
     links: [
       { href: "/terminos", label: "Términos de uso" },
       { href: "/privacidad", label: "Política de privacidad" },
+      { href: "/faq", label: "Preguntas Frecuentes" },
       { href: "/contacto", label: "Contacto" },
     ],
   },

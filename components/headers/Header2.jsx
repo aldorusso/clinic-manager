@@ -49,10 +49,16 @@ export default function Header2() {
         <div className="container max-w-xl">
           <div className="uc-navbar min-h-40px lg:min-h-48px items-center">
             <div className="uc-navbar-left">
-              <div className="uc-navbar-nav gap-2 lg:gap-3 fs-7 text-uppercase fw-bold text-gray-900 dark:text-white">
+              <div className="uc-navbar-nav gap-2 lg:gap-3 fs-7 fw-medium opacity-80 text-gray-900 dark:text-white">
+                <Link href="/nosotros" className="text-none">Nosotros</Link>
+                <span className="opacity-50">/</span>
+                <Link href="/comparativa" className="text-none">Comparativa</Link>
+                <span className="opacity-50">/</span>
                 <Link href="/colaboradores" className="text-none">Colaboradores</Link>
                 <span className="opacity-50">/</span>
                 <Link href="/contacto" className="text-none">Contacto</Link>
+                <span className="opacity-50">/</span>
+                <Link href="/recursos" className="text-none">Recursos</Link>
                 <span className="opacity-50">/</span>
                 <Link href="/blog" className="text-none">Blog</Link>
               </div>

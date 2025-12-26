@@ -20,9 +20,14 @@ export const menuItems = [
     label: "Precios",
   },
   {
-    id: 5,
-    href: "/nosotros",
-    label: "Nosotros",
+    id: 6,
+    href: "/faq",
+    label: "FAQ",
+  },
+  {
+    id: 7,
+    href: "/demo",
+    label: "Demo",
   },
 ];
 
